@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "574315557110",
-    "project_id": "sendbirdsdk-daf49",
-    "storage_bucket": "sendbirdsdk-daf49.appspot.com"
+    "project_number": "524958796444",
+    "project_id": "sendbirdappsdk",
+    "storage_bucket": "sendbirdappsdk.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:574315557110:android:ee1ce548086657505a3cd7",
+        "mobilesdk_app_id": "1:524958796444:android:17ba9ccf32c7f42326bb59",
         "android_client_info": {
           "package_name": "com.example.chat_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAhX1ossVTuFv_exwH-oyMfMJfRY2pPh7k"
+          "current_key": "AIzaSyAbdQrKiTaMizwZzbfEpfaAMoZKH-rAHxU"
         }
       ],
       "services": {
