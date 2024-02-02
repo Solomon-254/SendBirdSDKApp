@@ -134,6 +134,7 @@ class _MyChatPageState extends State<MyChatPage> {
         MyOpenChannelHandler((chatMessage) {
           setState(() {
             othermessages.add(chatMessage);
+            logger.i(othermessages.length);
           });
         }),
       );
