@@ -120,7 +120,7 @@ class _MyChatPageState extends State<MyChatPage> {
       logger.i('Participitant count ${openChannel.participantCount}');
       logger.i('First Operator ${openChannel.operators.first.nickname}');
       setState(() {
-        userName = openChannel.operators.first.nickname;
+        userName = '강남스팟';
       });
 
       // Step 4: Send a message to the channel
@@ -161,7 +161,7 @@ class _MyChatPageState extends State<MyChatPage> {
           IconButton(
             icon: const Icon(Icons.menu),
             onPressed: () {
-              // Implement burger icon functionality
+
             },
           ),
         ],

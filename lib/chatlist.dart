@@ -12,7 +12,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
   final List<Map<String, dynamic>> chatLists = [
     {
       "profilePictureUrl": "assets/images/image1.jpg",
-      "username": "HypeHire",
+      "username": "Juhyun Kim,...",
       "lastMessage": "[중고] 하루 만에 품절되는 오늘 입고 상",
       "messageTime": "16:47",
       "isOnline": true,
