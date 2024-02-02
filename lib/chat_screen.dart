@@ -16,7 +16,7 @@ class _MyChatPageState extends State<MyChatPage> {
   String appId = 'BC823AD1-FBEA-4F08-8F41-CF0D9D280FBF';
   String openChannelUrl =
       'sendbird_open_channel_14092_bf4075fbb8f12dc0df3ccc5c653f027186ac9211';
-  String accessToken = 'ggjnbgvg';
+  String accessToken = 'sendbird_open_channel_14092_bf4075fbb8f12dc0df3ccc5c653f027186ac9211';
   var userName = 'Loading...';
   bool _isLoading = true;
   bool _isSendButtonEnabled = false;
@@ -31,8 +31,8 @@ class _MyChatPageState extends State<MyChatPage> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       getAllMessage();
       stopLoading();
-    });
-  }
+    });  
+    }
 
   @override
   void dispose() {
